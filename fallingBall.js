@@ -72,7 +72,7 @@ window.onload=function(){
 			this.canvas.ball(this.position.x,this.position.y,this.radius,1);
 		},
 		
-		move: function(dt){
+		fall: function(dt){
 			var that=this,
 				r=that.radius,
 				h_0=w_0=r+1,
@@ -131,7 +131,7 @@ window.onload=function(){
 	var ball=new Ball();
 	
 	ball.init();
-	ball.move(1);
+	ball.fall(1);
 	
 	
 	
