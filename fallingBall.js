@@ -131,48 +131,10 @@ window.onload=function(){
 	var ball=new Ball();
 	
 	ball.init();
-	ball.fall(1);
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
- 	
+	$("drawing").onclick=function(){
+		this.onclick=null;
+		ball.fall(1);
+	}
  	
 }
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
